@@ -3,9 +3,83 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Main style -->
+  <link rel="stylesheet" href="style/main.css">
+  <!-- responsive style-->
+  <link rel="stylesheet" href="style/responsive.css">
+
+  <!--Link to Font awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" 
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" 
+    crossorigin="anonymous">
+  
+  <!-- Owl CSS3-->
+  <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+  
   <title>NETFLIX CLONE</title>
+
 </head>
 <body>
+  <header>
+    <div class="container">
+      <h2 class="logo">NETIFLIX</h2>
+      <nav>
+        <a href="#">Iniciar</a>
+        <a href="#">Séries</a>
+        <a href="#">Filmes</a>
+        <a href="#">Documentários</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="main-movie">
+      <div class="container">
+        <h3 class="title">BAD BOYS PARA SEMPRE</h3>
+        <p class="description">
+          Marcus e Mike são forçados a enfrentar novas ameaças, mudanças de 
+          carreira e crises de meia-idade ao se juntarem à recém-criada equipe 
+          de elite AMMO do departamento de polícia de Miami para derrubar o 
+          implacável Armando Armas, o líder cruel de um cartel de drogas de Miami.
+        </p>
+
+        <div class="buttons-group">
+          <button role="button" class="button">
+            <i class="fas fa-play"></i>
+            ASSISTIR AGORA
+          </button>
+          <button role="button" class="button">
+            <i class="fas fa-info-circle"></i>
+            MAIS INFORMAÇÕES
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
   
+  <div class="movies-carousel">
+    <div class="owl-carousel owl-theme">
+      <div class="item"><img class="movie-box" src="img/mini1.jpg" alt="movie session item"></div>
+      <div class="item"><img class="movie-box" src="img/mini2.jpg" alt="movie session item"></div>
+      <div class="item"><img class="movie-box" src="img/mini3.jpg" alt="movie session item"></div>
+      <div class="item"><img class="movie-box" src="img/mini4.jpg" alt="movie session item"></div>
+      <div class="item"><img class="movie-box" src="img/mini5.jpg" alt="movie session item"></div>
+      <div class="item"><img class="movie-box" src="img/mini6.jpg" alt="movie session item"></div>
+      <div class="item"><img class="movie-box" src="img/mini7.jpg" alt="movie session item"></div>
+      <div class="item"><img class="movie-box" src="img/mini8.jpg" alt="movie session item"></div>
+      <div class="item"><img class="movie-box" src="img/mini9.jpg" alt="movie session item"></div>
+      <div class="item"><img class="movie-box" src="img/mini10.jpg" alt="movie session item"></div>
+    </div>
+  </div>
+  
+  <!-- Owl Javascript -->
+  <script src="js/owl/jquery.min.js"></script>
+  <script src="js/owl/owl.carousel.min.js"></script>
+  
+    <!-- Main Javascript -->
+    <script src="js/setup.js"></script>
+
 </body>
 </html>
